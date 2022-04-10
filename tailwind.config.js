@@ -97,7 +97,9 @@ module.exports = {
     },
   },
   variants: {
-    typography: ['dark'],
+    extend: {
+      typography: ['dark'], // https://github.com/tailwindlabs/tailwindcss-typography/issues/69#issuecomment-752946920
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),
