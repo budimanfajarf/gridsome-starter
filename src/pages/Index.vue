@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <main class="container py-10 prose lg:prose-xl">
+    <main class="container py-10 prose lg:prose-xl dark:prose-light">
       <!-- Learn how to use images here: https://gridsome.org/docs/images -->
       <g-image alt="Example image" src="~/favicon.png" width="135" />
 

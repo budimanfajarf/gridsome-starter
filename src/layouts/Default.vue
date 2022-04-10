@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen justify-between bg-white dark:bg-gray-800 text-gray-800 dark:text-white">
+  <div
+    class="flex flex-col min-h-screen justify-between bg-white dark:bg-gray-800 text-gray-800 dark:text-white"
+  >
     <header class="py-6 bg-gray-100 dark:bg-gray-700">
       <div class="container">
         <div class="flex justify-between items-center">
