@@ -24,27 +24,18 @@ query {
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+  @apply m-0 p-0 leading-normal;
 }
 
 .layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  @apply max-w-3xl my-0 mx-auto px-5;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  @apply flex justify-between items-center mb-5 h-20;
 }
 
 .nav__link {
-  margin-left: 20px;
+  @apply ml-5;
 }
 </style>
