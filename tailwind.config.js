@@ -23,6 +23,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        // sm: '2rem',
+        // ...
+      },
+    },
   },
   variants: {
     extend: {},
