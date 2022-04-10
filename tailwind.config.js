@@ -20,7 +20,7 @@ module.exports = {
       "g-image--loaded",
     ],
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or false
   theme: {
     extend: {},
     container: {
